@@ -4,6 +4,7 @@ import { ProductListComponent } from './components/product-list/product-list.com
 import { CommonModule } from '@angular/common';
 import { ProductCategoryMenuComponent } from './components/product-category-menu/product-category-menu.component';
 import { SearchComponent } from './components/search/search.component';
+import {CartStatusComponent} from "./components/cart-status/cart-status.component";
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import { SearchComponent } from './components/search/search.component';
     CommonModule,
     RouterModule,
     ProductCategoryMenuComponent,
-    SearchComponent
+    SearchComponent,
+    CartStatusComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
